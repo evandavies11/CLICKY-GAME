@@ -1,20 +1,22 @@
 import React from "react";
 import "./style.css";
 
-function FriendCard(props) {
+function DudeCard(props, handleIncrement) {
   return (
-    <div className="card">
+
+    <div className="card" id={props.id} onClick={props.handleIncrement}>
       <div className="img-container">
         <img alt={props.name} src={props.image} />
       </div>
       <div className="content">
 
       </div>
-      <span onClick={() => props.removeFriend(props.id)} className="remove">
+      {/* <span onClick={() => props.removeFriend(props.id)} className="remove">
         𝘅
-      </span>
+      </span> */}
     </div>
+
   );
 }
 
-export default FriendCard;
+export default DudeCard;

@@ -1,13 +1,14 @@
 import React, { Component } from "react";
 import DudeCard from "./components/DudeCard";
-import Wrapper from "./components/Wrapper";
+//import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import friends from "./dudes.json";
 
 class App extends Component {
   // Setting this.state.friends to the friends json array
   state = {
-    friends
+    friends,
+    count: 0
   };
 
   removeFriend = id => {
@@ -17,11 +18,17 @@ class App extends Component {
     this.setState({ friends });
   };
 
+  handleIncrement = () => {
+    // We always use the setState method to update a component's state
+    this.setState({ count: this.state.count + 1 });
+  };
+
   // Map over this.state.friends and render a FriendCard component for each friend object
   render() {
     return (
-      <Wrapper>
-        <Title>Friends List</Title>
+
+      <div>
+        <Title>Space-Click-Game></Title>/>
         {this.state.friends.map(friend => (
           <DudeCard
             removeFriend={this.removeFriend}
@@ -29,10 +36,12 @@ class App extends Component {
             key={friend.id}
             name={friend.name}
             image={friend.image}
-
+            count={this.state.count}
+            handleIncrement={this.handleIncrement}
           />
         ))}
-      </Wrapper>
+      </div>
+
     );
   }
 }

@@ -2,13 +2,13 @@
   {
     "id": 1,
     "name": "curiosity",
-    "image": "./images/mars-67522_1920.jpg",
+    "image": "../public/images/mars-67522_1920.jpg",
     "touched": false
   },
   {
     "id": 2,
     "name": "pluto",
-    "image": "./images/pluto.jpg",
+    "image": "../public/images/pluto.jpg",
     "touched": false
   },
   {

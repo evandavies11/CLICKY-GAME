@@ -11,9 +11,7 @@ function DudeCard(props, handleIncrement) {
       <div className="content">
 
       </div>
-      {/* <span onClick={() => props.removeFriend(props.id)} className="remove">
-        𝘅
-      </span> */}
+
     </div>
 
   );

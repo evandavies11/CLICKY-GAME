@@ -14,3 +14,15 @@ html, body, #root {
 .wrapper{
   background-image: url("../src/sunrise-1756274_1920.jpg");
 }
+
+.DudeCard {
+  padding-top: 50px;
+  
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 20px;
+  justify-content: space-around;
+  align-content: flex-start;
+  overflow: auto;
+}

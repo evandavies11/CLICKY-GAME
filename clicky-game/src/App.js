@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import DudeCard from "./components/DudeCard";
-//import Wrapper from "./components/Wrapper";
+import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import friends from "./dudes.json";
 
@@ -18,7 +18,7 @@ class App extends Component {
     this.setState({ friends });
   };
 
-  handleIncrement = () => {
+  handleIncrement = id => {
     // We always use the setState method to update a component's state
     this.setState({ count: this.state.count + 1 });
   };
@@ -27,10 +27,10 @@ class App extends Component {
   render() {
     return (
 
-      <div>
+      <Wrapper>
         <Title>Space-Click-Game></Title>/>
         {this.state.friends.map(friend => (
-          <DudeCard
+          <DudeCard className="DudeCard"
             removeFriend={this.removeFriend}
             id={friend.id}
             key={friend.id}
@@ -40,7 +40,7 @@ class App extends Component {
             handleIncrement={this.handleIncrement}
           />
         ))}
-      </div>
+      </Wrapper>
 
     );
   }

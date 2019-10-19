@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/CLICKY-GAME/static/css/main.c7be404d.chunk.css",
+    "main.js": "/CLICKY-GAME/static/js/main.7fee25d7.chunk.js",
+    "main.js.map": "/CLICKY-GAME/static/js/main.7fee25d7.chunk.js.map",
+    "runtime-main.js": "/CLICKY-GAME/static/js/runtime-main.d542360f.js",
+    "runtime-main.js.map": "/CLICKY-GAME/static/js/runtime-main.d542360f.js.map",
+    "static/js/2.edd039f4.chunk.js": "/CLICKY-GAME/static/js/2.edd039f4.chunk.js",
+    "static/js/2.edd039f4.chunk.js.map": "/CLICKY-GAME/static/js/2.edd039f4.chunk.js.map",
+    "index.html": "/CLICKY-GAME/index.html",
+    "precache-manifest.63f5391fe7f6a9778ad0461a047cc494.js": "/CLICKY-GAME/precache-manifest.63f5391fe7f6a9778ad0461a047cc494.js",
+    "service-worker.js": "/CLICKY-GAME/service-worker.js",
+    "static/css/main.c7be404d.chunk.css.map": "/CLICKY-GAME/static/css/main.c7be404d.chunk.css.map",
+    "static/media/index.css": "/CLICKY-GAME/static/media/sunrise-1756274_1920.621cf67a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d542360f.js",
+    "static/js/2.edd039f4.chunk.js",
+    "static/css/main.c7be404d.chunk.css",
+    "static/js/main.7fee25d7.chunk.js"
+  ]
+}

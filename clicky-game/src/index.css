@@ -1,12 +1,11 @@
 * {
-  box-sizing: border-box;
+  
   font-family: sans-serif;
   
 }
 
 html, body, #root {
-  padding: 0;
-  margin: 0;
+ 
   height: 100%;
   
 }
@@ -15,14 +14,4 @@ html, body, #root {
   background-image: url("../src/sunrise-1756274_1920.jpg");
 }
 
-.DudeCard {
-  padding-top: 50px;
-  
-  height: 100%;
-  display: flex;
-  flex-flow: row wrap;
-  padding: 20px;
-  justify-content: space-around;
-  align-content: flex-start;
-  overflow: auto;
-}
+

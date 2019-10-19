@@ -25,22 +25,25 @@ class App extends Component {
 
   // Map over this.state.friends and render a FriendCard component for each friend object
   render() {
+
     return (
 
-      <Wrapper>
-        <Title>Space-Click-Game></Title>/>
-        {this.state.friends.map(friend => (
-          <DudeCard className="DudeCard"
-            removeFriend={this.removeFriend}
-            id={friend.id}
-            key={friend.id}
-            name={friend.name}
-            image={friend.image}
-            count={this.state.count}
-            handleIncrement={this.handleIncrement}
-          />
-        ))}
-      </Wrapper>
+      < Wrapper >
+        <Title>Space-Click-Game></Title> />
+      {
+          this.state.friends.map(friend => (
+            <DudeCard className="DudeCard"
+
+              id={friend.id}
+              key={friend.id}
+              name={friend.name}
+              image={friend.image}
+              count={this.state.count}
+              handleIncrement={this.handleIncrement}
+            />
+          ))
+        }
+      </Wrapper >
 
     );
   }

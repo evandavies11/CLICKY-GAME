@@ -13,10 +13,8 @@ function Title(props, count) {
       <div className="col-md-4 col-right">
         <h3>High Score: {props.count}</h3>
       </div>
-      <div className="row">
-        <div className="col-md-4 col-center">
-          <p>Identify the Space Craft, Make Sure to Click Only Once</p>
-        </div>
+      <div className="row" id="bottom=text">
+        Identify the SpaceCraft
       </div>
     </nav >
 

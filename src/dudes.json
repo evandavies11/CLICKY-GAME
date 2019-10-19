@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "curiosity",
-    "image": "./public/images/mars-67522_1920.jpg",
+    "image": "./images/mars-67522_1920.jpg",
     "touched": false
   },
   {

@@ -1,3 +1,6 @@
+**Project Link**
+https://evandavies11.github.io/CLICKY-GAME/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

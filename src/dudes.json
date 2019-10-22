@@ -2,73 +2,73 @@
   {
     "id": 1,
     "name": "curiosity",
-    "image": "./images/mars-67522_1920.jpg",
+    "image": "/images/mars-67522_1920.jpg",
     "touched": false
   },
   {
     "id": 2,
     "name": "pluto",
-    "image": "../public/images/pluto.jpg",
+    "image": "/images/pluto.jpg",
     "touched": false
   },
   {
     "id": 3,
     "name": "iss",
-    "image": "../images/iss.jpg",
+    "image": "/images/iss.jpg",
     "touched": false
   },
   {
     "id": 4,
     "name": "asteroid",
-    "image": "../images/asteroid.jpeg",
+    "image": "/images/asteroid.jpeg",
     "touched": false
   },
   {
     "id": 5,
     "name": "mir",
-    "image": "../images/Mir.jpg",
+    "image": "/images/Mir.jpg",
     "touched": false
   },
   {
     "id": 6,
     "name": "Sojourner",
-    "image": "../images/Sojourner.jpg",
+    "image": "/images/Sojourner.jpg",
     "touched": false
   },
   {
     "id": 7,
     "name": "soyuz",
-    "image": "../images/Soyuz.jpg",
+    "image": "/images/Soyuz.jpg",
     "touched": false
   },
   {
     "id": 8,
     "name": "shuttle",
-    "image": "../images/spaceshuttle.jpg",
+    "image": "/images/spaceshuttle.jpg",
     "touched": false
   },
   {
     "id": 9,
     "name": "sun propbe",
-    "image": "../images/sun-space-probe.jpg",
+    "image": "/images/sun-space-probe.jpg",
     "touched": false
   },
   {
     "id": 10,
     "name": "venus",
-    "image": "../images/venus.jpg",
+    "image": "/images/venus.jpg",
     "touched": false
   },
   {
     "id": 11,
     "name": "viking",
-    "image": "../images/Viking_spacecraft.jpg",
+    "image": "/images/Viking_spacecraft.jpg",
     "touched": false
   },
   {
     "id": 12,
     "name": "apollo",
-    "image": "../images/apollo.jpg",
+    "image": "/images/apollo.jpg",
     "touched": false
   }
 ]

@@ -9,9 +9,6 @@ function DudeCard(props, handleIncrement) {
         <div className="img-container">
           <img alt={props.name} src={props.image} />
         </div>
-        <div className="content">
-
-        </div>
 
       </div>
     </div>

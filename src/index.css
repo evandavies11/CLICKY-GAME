@@ -5,11 +5,7 @@
   
 }
 
-html, body, #root {
- 
-  height: 100%;
-  
-}
+
 
 .wrapper{
   background-image: url("../src/sunrise-1756274_1920.jpg");
